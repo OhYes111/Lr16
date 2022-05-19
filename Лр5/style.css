@@ -1,0 +1,62 @@
+.block1
+{
+    background: linear-gradient( #865151, #004f74);
+}
+.block2
+{
+    
+    background: linear-gradient(to bottom right, #00ff00, #fd9104);
+}
+.block3
+{
+    background: linear-gradient( #ff0000, #eeff00,#0011ff,#ff00d4);
+}
+.block4
+{
+    background: radial-gradient( #fbff00, #ff0000);
+}
+.block5
+{
+    background: radial-gradient(circle at 80px 20px, #007706, #002486);
+}
+.img
+{
+width: 150px;
+height: 150px;
+}
+.img1
+{
+    width: 150px;
+    height: 150px;
+    transform: scale(-1, 1);
+}
+.img2
+{
+    width: 150px;
+    height: 150px;
+    transform: rotate(90deg);
+}
+.img3
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:300px;
+    top:370px;
+    transform: scale(-1, 1);
+}
+.img4
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:520px;
+}
+.img5
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:280px;
+    transform: skew(30deg,0);
+}
