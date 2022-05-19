@@ -1,0 +1,44 @@
+@color1: #4a4a4a;
+@color2: #f9f9f9;
+@color3:  #eeeeee;
+body {
+  color: #4a4a4a;
+  padding-left: 200px;
+  padding-right: 190px;
+  min-width: 240px;
+}
+header,
+footer {
+  background-color: @color1;
+  color: @color2;
+  margin-left: -200px;
+  margin-right: -190px;
+}
+main {
+  background: @color2;
+  padding: 0 20px;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+nav,
+aside {
+  background: @color3;
+  position: relative;
+  float: left;
+}
+nav {
+  width: 180px;
+  padding: 0 10px;
+  right: 240px;
+  margin-left: -100%;
+}
+aside {
+  width: 130px;
+  padding: 0 10px;
+  margin-right: -100%;
+}
+footer {
+  clear: both;
+}
+

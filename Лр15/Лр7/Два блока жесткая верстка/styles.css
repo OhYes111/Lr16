@@ -1,0 +1,5 @@
+div#block {width:600px; margin:0 auto; background-color:#dddddd} 
+div.header {width:600px; height:100px; background-color:#717dc9} 
+div.left_col {width:148px; height:350px; float:left; border-right:2px dashed #717dc9} 
+div.right_col {width:450px; float:left} 
+div.footer {width:600px; height:70px; background-color:#717dc9; clear:both} 

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    margin: 1% 0 0 0;
+    grid-gap: 1vw;
+}
+.grid-top{
+    width: 98%;
+    height: 28em;
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+.grid-2{
+    background-color: rgb(47, 255, 220);
+    width: 49%;
+    height: 13em;
+}
+.grid-22{
+    background-color:  rgb(47, 255, 220);
+}
+.grid-bottom{
+    width: 98%;
+    height: 28em;
+    
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
